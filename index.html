@@ -541,6 +541,19 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-send">
+          <label>
+          <h2 class="social-title">Підпишіться на розсилку</h2>
+          <input type="text" name="email-input" placeholder="E-mail" class="email-input" />
+          </label>
+          <div class="btn-icon">
+            <button class="footer-btn" type="submit">Підписатися</button>
+            <svg class="send" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -612,14 +625,19 @@
             </label>
           </div>
           <div class="form-field">
-            <label for="modal-checkbox">
-              <input
-                type="checkbox"
-                name="modal-checkbox"
-                value=""
-                class="modal-checkbox"
-              />Погоджуюся з розсилкою та приймаю
-              <span class="checkbox-text">Умови договору</span>
+            <label class="checkbox">
+              <div class="input-field option">
+                <input
+                  type="checkbox"
+                  name="modal-check"
+                  class="modal-checkbox"
+                />
+                <svg class="ckeckbox-icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+                <p class="check-text">Погоджуюся з розсилкою та приймаю</p>
+                <a href="" class="check-conditions">&nbsp Умови договору</a>
+              </div>
             </label>
           </div>
           <button type="submit" class="modal-btn">Відправити</button>
